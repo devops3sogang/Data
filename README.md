@@ -11,7 +11,7 @@ MongoDB의 `campus_food` 데이터베이스를 사용하는 간단한 서버 애
 
 spring.application.name=MongoSpring  <br/>
 server.port=8080  <br/>
-spring.data.mongodb.uri=mongodb://localhost:27017/campus_food
+spring.data.mongodb.uri=mongodb://localhost:27017/campus_food <br/>
 spring.data.mongodb.database=campus_food
 
 
