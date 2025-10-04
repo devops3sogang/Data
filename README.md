@@ -9,8 +9,8 @@ MongoDB의 `campus_food` 데이터베이스를 사용하는 간단한 서버 애
 
 `src/main/resources/application.properties` 파일:
 
-spring.application.name=MongoSpring
-server.port=8080
+spring.application.name=MongoSpring  <br/>
+server.port=8080  <br/>
 spring.data.mongodb.uri=mongodb://localhost:27017/campus_food
 spring.data.mongodb.database=campus_food
 
@@ -26,8 +26,8 @@ spring.data.mongodb.database=campus_food
 2. **서버 실행**
     - 프로젝트 루트( `build.gradle` 이 있는 위치 )에서 다음 명령어 실행:
 
-./gradlew bootRun   # macOS / Linux <br>
-gradlew.bat bootRun # Windows
+./gradlew bootRun  &nbsp;&nbsp;&nbsp;&nbsp; # macOS / Linux <br>
+gradlew.bat bootRun &nbsp;# Windows
 
 또는 IDE(IntelliJ, VS Code 등)에서  
 `MongoSpringApplication` 클래스를 직접 실행합니다.
