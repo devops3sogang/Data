@@ -78,7 +78,7 @@ src/main/java/com/study/MongoSpring/config/SwaggerConfig.java
 
 | 주소                                               |설명|
 |:-------------------------------------------------|:---|
-| http://localhost:8080/api/table1/                |HTML 뷰 페이지|
+| http://localhost:8080/              |HTML 뷰 페이지|
 | http://localhost:8080/api/table1                 |전체 데이터 JSON 조회|
 | http://localhost:8080/api/table1/by-user/user001 |단일 데이터(userId) 조회|
 | http://localhost:8080/swagger-ui/index.html      |Swagger 문서 페이지|
