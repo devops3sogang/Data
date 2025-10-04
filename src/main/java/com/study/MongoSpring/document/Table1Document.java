@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class Table1Document {
 
     @Id
-    @org.springframework.data.mongodb.core.mapping.Field("_id") // ← 추가
+    @org.springframework.data.mongodb.core.mapping.Field("_id")
     private String id;
 
     private String userId;
